@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/green_primary_light"
+    android:elevation="8dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:text="@string/saran_perawatan"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="12dp" />
+
+    <TextView
+        android:id="@+id/suggestionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/silakan_semprotkan_fungisida_alami_seperti_bawang_putih_dan_air_kapur_lakukan_pagi_hari"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:lineSpacingExtra="6dp" />
+
+</LinearLayout>

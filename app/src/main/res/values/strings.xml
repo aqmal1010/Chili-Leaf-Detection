@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Chili Leaf Detection App</string>
+    <string name="desc_image_logo">Logo Deteksi Penyakit Cabai</string>
+    <string name="desc_image_disease">Gambar Penyakit Daun Cabai</string>
+
+
+    <string name="menu_home">Beranda</string>
+    <string name="menu_material">Informasi</string>
+    <string name="menu_detect">Deteksi</string>
+    <string name="menu_history">Riwayat</string>
+    <string name="menu_guide">Panduan</string>
+
+    <string name="title_disease">Bercak Daun</string>
+    <string name="desc_disease">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt tellus ut ornare suscipit. Quisque maximus nisl sed interdum tempor. Maecenas vestibulum scelerisque elit, in consequat enim ultrices sed. Etiam ultrices congue suscipit.</string>
+
+
+    <string name="empty_image_warning">Harap unggah file gambar terlebih dahulu</string>
+    <string name="image_scan">Pemindaian Gambar</string>
+    <string name="lihat_hasil">Lihat Hasil</string>
+
+    <string name="guide_title">Panduan Penggunaan Aplikasi Chili Leaf Detection App</string>
+    <string name="guide_step_1">1. Buka aplikasi Chili Leaf Detection App.</string>
+    <string name="guide_step_2">2. Pilih menu Deteksi untuk mulai mendeteksi penyakit pada daun cabai.</string>
+    <string name="guide_step_3">3. Arahkan kamera ke daun cabai yang ingin diperiksa.</string>
+    <string name="guide_step_4">4. Tunggu hingga hasil deteksi muncul.</string>
+    <string name="guide_step_5">5. Buka menu Informasi Penyakit untuk mengetahui informasi lebih lanjut tentang penyakit yang terdeteksi.</string>
+    <string name="guide_step_6">6. Cek riwayat deteksi di menu History.</string>
+
+    <!-- Informasi aplikasi -->
+    <string name="app_developed_for">Dikembangkan untuk siswa SMK Negeri 1 Kuningan</string>
+    <string name="app_description">Aplikasi ini dibuat untuk membantu siswa dalam mendeteksi penyakit tanaman cabai secara otomatis menggunakan teknologi CNN.</string>
+
+    <string name="diagnosa_penyakit_label">Hasil Analisis</string>
+    <string name="diagnosa_penyakit">Penyakit tidak terdeteksi</string>
+    <string name="tingkat_kepercayaan_label">Tingkat Kepercayaan</string>
+    <string name="label_nama_ilmiah">Nama Ilmiah</string>
+    <string name="label_gejala">Gejala</string>
+    <string name="label_penyebab">Penyebab</string>
+    <string name="label_penanganan_kimia">Penanganan Kimia</string>
+    <string name="label_penanganan_hayati">Penanganan Hayati</string>
+    <string name="placeholder_default">-</string>
+    <string name="btn_selesai">Selesai</string>
+
+    <string name="analyze_score">Score: %s</string>
+
+
+
+    <string name="error_loading_image">Kesalahan Memuat Gambar</string>
+    <string name="btn_realtime">Realtime</string>
+
+    <string name="error_no_result">Foto tidak sesuai</string>
+    <string name="choose_picture">Pilih Gambar</string>
+
+    <string name="waktu_deteksi">Tanggal</string>
+    <string name="penyebab">Penyebab:</string>
+    <string name="penanganan">Penanganan:</string>
+    <string name="memuat_deteksi">Memuat Deteksi...</string>
+    <string name="tampilkan_saran">Tampilkan Saran</string>
+    <string name="logo_universitas_kuningan">Logo Universitas Kuningan</string>
+    <string name="logo_smk_negeri_1_kuningan">Logo SMK Negeri 1 Kuningan</string>
+    <string name="foto_profil">Foto Profil</string>
+    <string name="aplikasi_ini_dikembangkan_untuk_mendeteksi_penyakit_pada_daun_tanaman_cabai_secara_otomatis_menggunakan_model_machine_learning_yang_telah_dilatih">Aplikasi ini dikembangkan untuk mendeteksi penyakit pada daun tanaman cabai secara otomatis menggunakan model machine learning yang telah dilatih.</string>
+    <string name="fitur_utama_meliputi_n_deteksi_gambar_dari_galeri_atau_kamera_n_deteksi_real_time_menggunakan_kamera_n_informasi_jenis_penyakit_dan_saran_penanganan_n_riwayat_deteksi_tersimpan_secara_lokal">Fitur utama meliputi:\n• Deteksi gambar dari galeri atau kamera\n• Deteksi real-time menggunakan kamera\n• Informasi jenis penyakit dan saran penanganan\n• Riwayat deteksi tersimpan secara lokal</string>
+    <string name="dikembangkan_oleh_aqmal_salya_nur_alamsyah">Dikembangkan oleh: Aqmal Salya Nur Alamsyah</string>
+    <string name="mahasiswa_teknik_informatika_universitas_kuningan">Mahasiswa : Teknik Informatika, Universitas Kuningan</string>
+    <string name="versi_aplikasi_1_0_0">Versi Aplikasi: 1.0.0</string>
+    <string name="platform_android_minimal_sdk_21">Platform: Android (Minimal SDK 21)</string>
+    <string name="tujuan_aplikasi_ini_adalah_untuk_membantu_pelajar_dan_guru_di_lingkungan_smk_negeri_1_kuningan_dalam_mengidentifikasi_penyakit_pada_tanaman_cabai_dengan_cepat_dan_akurat">Tujuan aplikasi ini adalah untuk membantu pelajar, dan guru di lingkungan SMK Negeri 1 Kuningan dalam mengidentifikasi penyakit pada tanaman cabai dengan cepat dan akurat.</string>
+    <string name="logo_smk">Logo SMK</string>
+    <string name="smk_negeri_1_kuningan">SMK Negeri 1 Kuningan</string>
+    <string name="belum_ada_riwayat_deteksi">Belum ada riwayat deteksi</string>
+    <string name="hi_selamat_datang">Hi, Selamat Datang</string>
+    <string name="scan_sekarang_agar_dapat_melihat_deteksi_yang_anda_inginkan">Scan sekarang agar dapat melihat deteksi yang anda inginkan!</string>
+    <string name="mulai_scan">Mulai Scan</string>
+    <string name="informasi_penyakit">Informasi Penyakit</string>
+    <string name="lihat_semua">Lihat Semua</string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="keriting_daun">Keriting Daun</string>
+    <string name="skor_92">Skor: 92%</string>
+    <string name="saran_perawatan">Saran Perawatan</string>
+    <string name="silakan_semprotkan_fungisida_alami_seperti_bawang_putih_dan_air_kapur_lakukan_pagi_hari">Silakan semprotkan fungisida alami seperti bawang putih dan air kapur. Lakukan pagi hari.</string>
+    <string name="btn_upload_image">Upload Gambar</string>
+
+</resources>

@@ -1,0 +1,52 @@
+[
+  {
+    "disease_name": "Bercak Daun",
+    "scientific_name": "Cercospora capsici",
+    "symptoms": "Muncul bercak bulat hingga oval berwarna coklat kehitaman pada permukaan daun.\nTepi bercak biasanya berwarna lebih gelap dari bagian tengah.\nBercak dapat meluas menyebabkan daun mengering dan rontok.",
+    "causes": "Disebabkan oleh jamur Cercospora capsici.\nPenyakit menyebar di lingkungan lembab, curah hujan tinggi, dan tanaman terlalu rapat.",
+    "treatment": {
+      "hayati": "Penyemprotan dengan ekstrak tanaman seperti daun sirih atau tembakau untuk menghambat perkembangan jamur.",
+      "kimiawi": "Gunakan fungisida berbahan aktif klorotalonil atau mankozeb secara berkala saat musim hujan."
+    }
+  },
+  {
+    "disease_name": "Keriting Daun",
+    "scientific_name": "Akibat infeksi virus seperti CMV (Cucumber Mosaic Virus)",
+    "symptoms": "Daun menggulung ke atas atau ke bawah, tepi daun mengkerut.\nPertumbuhan tanaman terhambat.\nWarna daun bisa menjadi lebih pucat.\\nTanaman tampak kerdil dan berproduksi rendah.",
+    "causes": "\"Disebabkan oleh infeksi virus yang dibawa oleh serangga vektor seperti kutu daun (aphid).\nPenyebaran lebih cepat di lahan dengan kelembaban tinggi dan sanitasi buruk.",
+    "treatment": {
+      "hayati": "Gunakan pestisida nabati seperti ekstrak bawang putih atau mimba untuk mengurangi populasi kutu daun.",
+      "kimiawi": "Semprot insektisida sistemik untuk mengendalikan vektor pembawa virus, seperti abamektin atau imidakloprid."
+    }
+  },
+  {
+    "disease_name": "Virus Kuning",
+    "scientific_name": "Pepper Yellow Leaf Curl Virus (PYLCV)",
+    "symptoms": "Daun menguning dimulai dari bagian tengah atau tepi.\nDaun menggulung dan menebal.\nPertumbuhan terhambat dan buah berkurang.\nTanaman terlihat lemah dan mudah layu.",
+    "causes": "Disebabkan oleh infeksi virus yang dibawa oleh serangga vektor seperti kutu kebul (Bemisia tabaci).\nCuaca panas dan kering mempercepat penyebaran.",
+    "treatment": {
+      "hayati": "Gunakan perangkap kuning lengket untuk mengurangi populasi kutu kebul.\nTanam tanaman penghalang seperti jagung di sekitar lahan.",
+      "kimiawi": "Gunakan insektisida berbahan aktif seperti tiametoksam atau spirotetramat untuk menekan vektor."
+    }
+  },
+  {
+    "disease_name": "Daun Sehat",
+    "scientific_name": "-",
+    "symptoms": "Daun berwarna hijau segar dan merata.\nTidak terdapat bercak, keriting, atau perubahan warna.\nPertumbuhan tanaman optimal dan tidak menunjukkan gejala stres.",
+    "causes": "Kondisi ideal pertumbuhan tanaman: nutrisi cukup, air seimbang, bebas dari hama dan penyakit.",
+    "treatment": {
+      "hayati": "Lanjutkan pemupukan organik secara rutin dan menjaga kebersihan lahan.",
+      "kimiawi": "Tidak diperlukan perlakuan kimia jika tanaman dalam kondisi sehat."
+    }
+  },
+  {
+    "disease_name": "Unknown",
+    "scientific_name": "-",
+    "symptoms": "Gambar tidak dikenali sebagai penyakit daun cabai.",
+    "causes": "-",
+    "treatment": {
+      "hayati": "-",
+      "kimiawi": "-"
+    }
+  }
+]

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="32dp"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Foto Profil -->
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="180dp"
+            android:src="@drawable/foto_saya"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/profile_circle_background"
+            android:contentDescription="@string/foto_profil"
+            android:elevation="4dp" />
+
+        <!-- Card Informasi -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="24dp"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Deskripsi -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aplikasi_ini_dikembangkan_untuk_mendeteksi_penyakit_pada_daun_tanaman_cabai_secara_otomatis_menggunakan_model_machine_learning_yang_telah_dilatih"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:lineSpacingExtra="4dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginVertical="12dp"
+                    android:background="#DDDDDD" />
+
+                <!-- Fitur -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fitur_utama_meliputi_n_deteksi_gambar_dari_galeri_atau_kamera_n_deteksi_real_time_menggunakan_kamera_n_informasi_jenis_penyakit_dan_saran_penanganan_n_riwayat_deteksi_tersimpan_secara_lokal"
+                    android:textSize="14sp"
+                    android:lineSpacingExtra="4dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginVertical="12dp"
+                    android:background="#DDDDDD" />
+
+                <!-- Info Pengembang -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dikembangkan_oleh_aqmal_salya_nur_alamsyah"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="6dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mahasiswa_teknik_informatika_universitas_kuningan"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="6dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/versi_aplikasi_1_0_0"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="6dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/platform_android_minimal_sdk_21"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="6dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginVertical="12dp"
+                    android:background="#DDDDDD" />
+
+                <!-- Tujuan -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tujuan_aplikasi_ini_adalah_untuk_membantu_pelajar_dan_guru_di_lingkungan_smk_negeri_1_kuningan_dalam_mengidentifikasi_penyakit_pada_tanaman_cabai_dengan_cepat_dan_akurat"
+                    android:textSize="14sp"
+                    android:lineSpacingExtra="4dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginVertical="12dp"
+                    android:background="#DDDDDD" />
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

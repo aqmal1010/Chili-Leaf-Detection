@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <!-- Scrollable content -->
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="70dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Text Welcome -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/hi_selamat_datang"
+                android:textColor="@color/green_primary_dark"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <!-- Card Banner -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/titleTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/scan_sekarang_agar_dapat_melihat_deteksi_yang_anda_inginkan"
+                        android:textColor="@color/text_dark"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/btnStartScan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/titleTextView"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="16dp"
+                        android:backgroundTint="@color/green_primary_dark"
+                        android:text="@string/mulai_scan"
+                        android:textColor="@color/white" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Section Informasi Penyakit -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/informasi_penyakit"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/text_dark" />
+
+                <TextView
+                    android:id="@+id/seeAllButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:text="@string/lihat_semua"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="@color/green_primary_dark" />
+            </RelativeLayout>
+
+            <!-- RecyclerView -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvDisease"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="horizontal"
+                android:scrollbars="none"
+                tools:listitem="@layout/item_material_disease" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

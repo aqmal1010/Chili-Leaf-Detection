@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.chilidetectionapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_materialDiseaseFragment"
+            app:destination="@id/navigation_material_disease" />
+
+        <action
+            android:id="@+id/action_homeFragment_to_scanFragment"
+            app:destination="@id/navigation_detection"/>
+        <action
+            android:id="@+id/action_navigation_home_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.chilidetectionapp.ui.about.AboutFragment"
+        android:label="Tentang Aplikasi"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/navigation_material_disease"
+        android:name="com.example.chilidetectionapp.ui.material.MaterialDiseaseFragment"
+        android:label="@string/menu_material"
+        tools:layout="@layout/fragment_material_disease">
+        <action
+            android:id="@+id/action_materialDiseaseFragment_to_homeFragment"
+            app:destination="@id/navigation_home"
+            app:popUpTo="@id/navigation_home"
+            app:popUpToInclusive="false"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_detection"
+        android:name="com.example.chilidetectionapp.ui.scan.ScanFragment"
+        android:label="@string/menu_detect"
+        tools:layout="@layout/fragment_scan">
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="com.example.chilidetectionapp.ui.history.HistoryFragment"
+        android:label="@string/menu_history"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/navigation_guide"
+        android:name="com.example.chilidetectionapp.ui.guide.GuideFragment"
+        android:label="@string/menu_guide"
+        tools:layout="@layout/fragment_guide" />
+</navigation>

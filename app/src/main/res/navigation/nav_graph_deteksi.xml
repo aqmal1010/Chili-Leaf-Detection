@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/permissionFragment">
+
+    <fragment
+        android:id="@+id/RealtimeActivity"
+        android:name="com.example.chilidetectionapp.ui.scan.objectdetection.RealtimeActivity"
+        android:label="Camera">
+        <action
+            android:id="@+id/action_objectDetection_to_permissions"
+            app:destination="@id/permissionFragment"
+            app:popUpTo="@id/RealtimeActivity"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/permissionFragment"
+        android:name="com.example.chilidetectionapp.ui.scan.objectdetection.PermissionFragment"
+        android:label="fragment_permission"
+        tools:layout="@layout/fragment_permission">
+
+        <action
+            android:id="@+id/action_permissions_to_objectDetection"
+            app:destination="@id/RealtimeActivity"
+            app:popUpTo="@id/permissionFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+</navigation>
